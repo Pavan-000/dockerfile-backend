@@ -1,0 +1,30 @@
+// All Users
+###
+GET http://localhost:3000/
+
+// Find by Id
+###
+GET http://localhost:3000/68f3793928f49aa08e6e7a72
+
+// Create Post
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name" : "narasing",
+    "age" : 26
+}
+
+### 
+
+PUT http://localhost:3000/68f3793928f49aa08e6e7a72
+Content-Type: application/json
+
+{
+    "name" : "Pavan updated",
+    "age" : 27
+}
+
+###
+DELETE  http://localhost:3000/68f3b72fcb974361b26acb33
